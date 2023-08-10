@@ -86,7 +86,7 @@ const GamePage = () => {
                     </div>
                 </div>
 
-                <div className={isStart && isShown ? "" : "hidden"} ref={gameStartRef}>
+                <div className={isStart && isShown ? "w-full" : "hidden"} ref={gameStartRef}>
                     <LevelCard />
                 </div>
             </div>

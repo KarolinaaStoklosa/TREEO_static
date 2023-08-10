@@ -47,8 +47,8 @@ const LevelCard = () => {
     
     return (
         <>
-            <div className="relative m-0">
-            <img src={levelCardAll} alt="exit" className="" />
+            <div className="relative m-0 w-full items-center bg-black">
+            <img src={levelCardAll} alt="exit" className="w-full self-center"  />
             <div className="ml-[10%] mr-[10%] mt-[20%] mb-[12%] absolute inset-0 grid grid-cols-12  grid-rows-6">
                 <button className="pointer-cursor row-start-1 row-span-3 col-start-1 col-span-2" onClick={openLevel01}></button>
                 <button className="pointer-cursor row-start-4 row-span-2 col-start-1 col-span-3"onClick={openLevel01}></button>

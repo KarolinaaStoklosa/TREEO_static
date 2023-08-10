@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3b72395.css",
-    "main.js": "/static/js/main.31ae8a9d.js",
+    "main.css": "/static/css/main.41848978.css",
+    "main.js": "/static/js/main.2927b90b.js",
     "static/media/autoreklamaDlaczegoMy8.png": "/static/media/autoreklamaDlaczegoMy8.fb739368cfa2ef20f516.png",
     "static/media/autoreklamaDlaczegoMy11.png": "/static/media/autoreklamaDlaczegoMy11.5b29e7c6e99f2e95f615.png",
     "static/media/autoreklamaDlaczegoMy10.png": "/static/media/autoreklamaDlaczegoMy10.fef37b9370bcdb9aa574.png",
@@ -95,7 +95,7 @@
     "static/media/galeriaWisnicz01.jpg": "/static/media/galeriaWisnicz01.045872e412c38497cdca.jpg",
     "static/media/galeriaVlad03.jpg": "/static/media/galeriaVlad03.bd77dc879373ff47d6a7.jpg",
     "static/media/02a.jpg": "/static/media/02a.a798db6ab8a8bbc91e5e.jpg",
-    "static/media/LevelCardAll.jpeg": "/static/media/LevelCardAll.0a162b6101970f3b84c6.jpeg",
+    "static/media/LevelCardAll.jpeg": "/static/media/LevelCardAll.9ccd4ca5e0df61691eab.jpeg",
     "static/media/konsultacjeWzornik.jpg": "/static/media/konsultacjeWzornik.0ce07b9a0239e802390f.jpg",
     "static/media/ZasadyGrySM.jpeg": "/static/media/ZasadyGrySM.8beb3ded2c3f83023699.jpeg",
     "static/media/galeriaVlad02.jpg": "/static/media/galeriaVlad02.5cf690480ca27cc12cd5.jpg",
@@ -117,11 +117,11 @@
     "static/media/emotkaStart.mp4": "/static/media/emotkaStart.1f299ab645a22e32be71.mp4",
     "static/media/levelExit.jpeg": "/static/media/levelExit.3aa8d08e637f18e21dea.jpeg",
     "index.html": "/index.html",
-    "main.f3b72395.css.map": "/static/css/main.f3b72395.css.map",
-    "main.31ae8a9d.js.map": "/static/js/main.31ae8a9d.js.map"
+    "main.41848978.css.map": "/static/css/main.41848978.css.map",
+    "main.2927b90b.js.map": "/static/js/main.2927b90b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3b72395.css",
-    "static/js/main.31ae8a9d.js"
+    "static/css/main.41848978.css",
+    "static/js/main.2927b90b.js"
   ]
 }
