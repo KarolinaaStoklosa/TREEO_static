@@ -54,6 +54,9 @@ const NavBar = () => {
                     <li className="mt-6 ml-6 cursor-pointer md:ml-0">
                         <Link to='/wizytowka'>Wizytówka</Link>
                     </li> 
+                    <li className="mt-6 ml-6 cursor-pointer md:ml-0">
+                        <Link to='/elementarz'>Elementarz</Link>
+                    </li> 
                 </ul>
         </div>
         </div>

@@ -48,18 +48,38 @@ const HomePage = () => {
                     <div className="ml-6 mr-6 md:ml-20 md:pl-6 absolute top-0 left-0 text-dark-900">
                         <h1 className="z-0 mt-16 font-[serif] md:font-[Roboto] md:text-7xl text-5xl tracking-tighter font-medium">Niech Twoje wnętrze <br />mówi o Tobie</h1>
                         <div className=" text-lg md:text-xl leading-tight mt-16 md:mt-24 grid grid-cols-2 md:grid-cols-3 md:grid-rows-1 grid-rows-2 gap-6 md:gap-16">
-                            <p>zaprojektuj i zrealizuj <span class="underline">niepowtarzalne meble,</span> </p>
-                            <p className="row-span-2">a każdy moment pomiędzy, to czas na odkrywanie nowych <span class="underline">możliwości</span> i <span class="underline">kreatywności</span></p>
-                            <p>zyskaj <span class="underline">jakość</span> i <span class="underline">profesjonalizm</span>, których oczekujesz od najlepszych w branży</p>
+                            <p>zaprojektuj i zrealizuj <span className="underline">niepowtarzalne meble,</span> </p>
+                            <p className="row-span-2">a każdy moment pomiędzy, to czas na odkrywanie nowych <span className="underline">możliwości</span> i <span className="underline">kreatywności</span></p>
+                            <p>zyskaj <span className="underline">jakość</span> i <span className="underline">profesjonalizm</span>, których oczekujesz od najlepszych w branży</p>
                         </div>
                     </div>
                     
                 </div>
                 
             </div>
-            <div className="relative w-full md:pl-20 md:ml-6 md:pr-24 pt-56 md:flex md:flex-row-reverse ">
-                <img src={treeoSign} alt="treeo znaczek" className="hidden md:block md:w-[50%] md:pl-5" />
-                <img src={treeoSign2} alt="magnes treeo" className="w-full md:w-[50%] md:pr-5" />
+            <div className="relative w-full">
+                <div className="md:pl-20 md:ml-6 md:mr-6 md:pr-20 pt-56 md:flex md:flex-row-reverse">
+                    <img src={treeoSign} alt="treeo znaczek" className="hidden md:block md:w-[50%] md:pl-5" />
+                    <img src={treeoSign2} alt="magnes treeo" className="w-full md:w-[50%] md:pr-5" />
+                </div>
+            </div>
+
+            <div className="relative w-full">
+                <div className="flex flex-col ml-6 mr-6 md:pl-20 md:pr-20 gap-4 pt-20">
+                    <p className="text-justify">Tworzymy zespół rzemieślników, artystów i inżynierów, którzy swoją wiedzę i pasję przekuwają w małe dzieła sztuki użytkowej. Wierzymy, że nowoczesne meble biurowe, łazienkowe czy kuchenne na wymiar mogą wyrażać ich właścicieli, uzupełniać przestrzeń życiową o nową energię, kreować myśli osób, które wśród nich przebywają na co dzień. Projektujemy i wykonujemy unikalne i funkcjonalne modele na zamówienie, pełne charakteru i maksymalnie dostosowane do Twoich potrzeb.</p>
+
+                    <h2 className="font-bold text-xl font-[Roboto]">Twój dom, Twój styl, Twoje wyjątkowe meble</h2>
+
+                    <p className="text-justify">Żyjemy w świecie, w którym niemal wszystko, co nas otacza, pochodzi z masowej produkcji. Nijakie, niewyróżniające się wyroby otaczają nas w biurach i salonach, takie samo wyposażenie kuchenne i łazienkowe nie mówi nic o ludziach, którzy z niego korzystają. Spraw, by Twoje wnętrza były jedyne w swoim rodzaju, korespondujące z Twoimi wartościami i potrzebami. Nowoczesne meble na zamówienie, produkowane przez TREEO, pomogą Ci stworzyć własny, inspirujący azyl.</p>
+
+                    <p className="text-justify">Bardzo ważnym aspektem naszej pracy jest poznanie indywidualnych potrzeb każdego Klienta. Tworząc na zamówienie nowoczesne meble biurowe, łazienkowe, kuchenne czy do salonu interesuje nas nie tylko ich przyszły wymiar, ale przede wszystkim charakter osoby, która będzie je użytkowała. Wykorzystując powierzoną nam przestrzeń, stworzymy dla Ciebie spersonalizowane i unikatowe produkty, na których powstanie masz stuprocentowy wpływ. Materiał, wykończenie, kolor, faktura – wszystkie te aspekty mają olbrzymie znaczenie. Sam wybierz otoczenie, w którym będziesz mieszkał. My przekujemy Twoje wizje w trwałe i funkcjonalne meble na wymiar do salonu i innych pomieszczeń.</p>
+
+                    <h2 className="font-bold text-xl font-[Roboto]">TREEO – kreatywny profesjonalizm</h2>
+
+                    <p className="text-justify">Wierzymy, że tylko dając z siebie wszystko, możemy w pełni zadowolić nawet najbardziej wymagających Klientów. Realizujemy kompleksową usługę projektowania i wykonania, tworząc na zamówienie nowoczesne meble na wymiar do salonu czy sypialni, a także biurowe, łazienkowe, kuchenne. Współpracujemy również z lokalnymi biznesami, tworząc funkcjonalne rozwiązania dla lokali użytkowych.</p>
+
+                    <p className="text-justify">Serdecznie zapraszamy do kontaktu z TREEO – razem stwórzmy dla Ciebie dom, w którym nie ma miejsca na bylejakość!</p>
+                </div>
             </div>
 
             <div className="relative w-full md:text-4xl text-3xl">
@@ -69,10 +89,10 @@ const HomePage = () => {
                 >Współpraca z najlepszymi <br className=""></br>w branży to gwarancja, <br></br>że Twój remont będzie wykonany 
                 w stylu, <br className=""></br>który Cię wyróżni.</p>
                     <p className="row-span-1 row-start-3 col-start-1 md:row-span-1 md:row-start-1 md:col-start-2"> 
-                        <a href="https://banownetrza.pl/" target="_blank" class="underline">Bano Wykończenia Wnętrz
+                        <a href="https://banownetrza.pl/" target="_blank" className="underline">Bano Wykończenia Wnętrz
                         </a> 
                         <br></br><span> i </span> 
-                        <a href="https://www.domwell.pl/" target="_blank" class="underline">
+                        <a href="https://www.domwell.pl/" target="_blank" className="underline">
                                 domwell wykończenia wnętrz,
                         </a>
                     </p>

@@ -5,6 +5,9 @@ import WorkPage from '../WorkPage/WorkPage';
 import AboutPage from '../AboutPage/AboutPage';
 import GalleryPage from '../GalleryPage/GalleryPage';
 import ContactPage from '../ContactPage/ContactPage';
+import BlogPage from '../BlogPage/BlogPage';
+import BlogPost from '../BlogPost/BlogPost';
+import BlogPostsList from '../BlogPostsList/BlogPostsList';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import GallerySubPage01 from '../GallerySubPage/GallerySubPage01';
@@ -42,6 +45,10 @@ function AnimatedRoutes() {
           <Route path="/tworczosc/06" element={<GallerySubPage06 />} />
           <Route path="/tworczosc/07" element={<GallerySubPage07 />} />
           <Route path="/politykaPrywatnosci" element={<PrivacyPolicy />} />
+          <Route path="/elementarz" element={<BlogPage />}>
+            <Route index element={<BlogPostsList />} />
+            <Route path=":slug" element={<BlogPost />} />
+          </Route>
         </Routes>
         </AnimatePresence>
 

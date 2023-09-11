@@ -18,6 +18,9 @@ const NavPage = () => {
                 <li className="mt-6 ml-6 cursor-pointer">
                     <Link to='/wizytowka'>Wizytówka</Link>
                 </li>
+                <li className="mt-6 ml-6 cursor-pointer md:ml-0">
+                    <Link to='/elementarz'>Elementarz</Link>
+                </li> 
             </ul>
 
         </>
